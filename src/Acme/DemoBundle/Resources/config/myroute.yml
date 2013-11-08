@@ -1,9 +1,9 @@
 first_action:
-    pattern: /simpleResponseObject
-    defaults: {_controller: AcmeDemoBundle:Hometask:simpleResponseObject}
+    pattern: /simpleResponse
+    defaults: {_controller: AcmeDemoBundle:Hometask:simpleResponse}
 second_action:
-    pattern: /simpleTemplateStructure
-    defaults: {_controller: AcmeDemoBundle:Hometask:simpleTemplateStructure}
+    pattern: /simpleTemplate
+    defaults: {_controller: AcmeDemoBundle:Hometask:simpleTemplate}
 third_action:
-    pattern: /extendsBaseTemplate
-    defaults: {_controller: AcmeDemoBundle:Hometask:extendsBaseTemplate}
+    pattern: /extendedTemplate
+    defaults: {_controller: AcmeDemoBundle:Hometask:extendedTemplate}
