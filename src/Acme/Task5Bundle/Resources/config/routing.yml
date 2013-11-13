@@ -1,4 +1,9 @@
-acme_task5_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: AcmeTask5Bundle:Default:index }
-
+acme_task5_index:
+    pattern: /index
+    defaults: {_controller: AcmeTask5Bundle:Default:index}
+acme_task5_about:
+    pattern: /about
+    defaults: {_controller: AcmeTask5Bundle:Default:about}
+acme_task5_contact:
+    pattern: /contact
+    defaults: {_controller: AcmeTask5Bundle:Default:contact}

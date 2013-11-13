@@ -1,5 +1,18 @@
 {% extends "AcmeTask5Bundle:Default:layout.html.twig" %}
 
+{% block title %} {{ parent() }} -- My cool index page{% endblock %}
+
 {% block body %}
-    Hello {{ name }}!
+    {{ parent() }}
+    {% block jumbotron %}
+        <div class="jumbotron">
+            <h1>Thisis my index page</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec sem mattis, mollis nulla
+                vel, adipiscing ante. Vestibulum convallis commodo arcu quis rutrum. Morbi mi dolor, euismod id augue
+                viverra, pharetra vestibulum purus. Curabitur sed lacus placerat, condimentum orci eu, tempus nibh.
+                Nulla in nisl eu mauris pharetra pellentesque. Cras tincidunt ante id condimentum lacinia. Duis pharetra
+                arcu ut iaculis ullamcorper.</p>
+            <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+        </div>
+    {% endblock %}
 {% endblock %}
