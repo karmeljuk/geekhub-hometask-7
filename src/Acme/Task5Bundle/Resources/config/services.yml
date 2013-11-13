@@ -1,0 +1,7 @@
+parameters:
+#    acme_task5.example.class: Acme\Task5Bundle\Example
+
+services:
+#    acme_task5.example:
+#        class: %acme_task5.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
