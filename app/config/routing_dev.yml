@@ -20,3 +20,7 @@ _acme_demo:
 _home_task_4:
     resource: "@AcmeDemoBundle/Resources/config/myroute.yml"
     prefix: /myrote
+
+acme_task5:
+    resource: "@AcmeTask5Bundle/Resources/config/routing.yml"
+    prefix:   /task5

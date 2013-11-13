@@ -1,0 +1,4 @@
+acme_task5:
+    resource: "@AcmeTask5Bundle/Resources/config/routing.yml"
+    prefix:   /task5
+
