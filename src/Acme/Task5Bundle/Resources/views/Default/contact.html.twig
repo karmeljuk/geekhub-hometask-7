@@ -1,8 +1,10 @@
 {% extends "AcmeTask5Bundle:Default:layout.html.twig" %}
 
-{% block title %} {{ parent() }} -- My cool about page{% endblock %}
+{% block title "My cool contact page" %}
 
-{% block body %}
-    {{ parent() }}
-    Hello Hello Hello {{ name }}!
+{% block jumbotron %}
+    <h1>Thisis my {{ page_name }} page</h1>
+    <p class="lead">{{ description }}</p>
+    <p><a class="btn btn-lg btn-success" href="{{ path('acme_task5_about') }}" role="button">Sign up today</a></p>
 {% endblock %}
+

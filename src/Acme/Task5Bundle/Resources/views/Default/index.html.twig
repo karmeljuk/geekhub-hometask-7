@@ -1,18 +1,32 @@
 {% extends "AcmeTask5Bundle:Default:layout.html.twig" %}
 
-{% block title %} {{ parent() }} -- My cool index page{% endblock %}
+{% block title "My cool index page" %}
 
-{% block body %}
-    {{ parent() }}
-    {% block jumbotron %}
-        <div class="jumbotron">
-            <h1>Thisis my index page</h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec sem mattis, mollis nulla
-                vel, adipiscing ante. Vestibulum convallis commodo arcu quis rutrum. Morbi mi dolor, euismod id augue
-                viverra, pharetra vestibulum purus. Curabitur sed lacus placerat, condimentum orci eu, tempus nibh.
-                Nulla in nisl eu mauris pharetra pellentesque. Cras tincidunt ante id condimentum lacinia. Duis pharetra
-                arcu ut iaculis ullamcorper.</p>
-            <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
-        </div>
-    {% endblock %}
+{% block jumbotron %}
+    <h1>Thisis my {{ page_name }} page</h1>
+
+    <p class="lead"></p>
+    <p class="lead"></p>
+    <p><a class="btn btn-lg btn-success" href="" role="button">Learn more</a></p>
+{% endblock %}
+
+{% block col1 %}
+    <h2>Tent name: <p class="lead"><strong>{{ tent_name | upper }}</strong></p></h2>
+    <p>{{ price }}</p>
+    <p>{{ description }}</p>
+    <p><a class="btn btn-default" href="{{ path('acme_task5_index') }}" role="button">Buy tent</a></p>
+{% endblock %}
+
+{% block col2 %}
+    <h2>Tent name: <p class="lead"><strong>{{ tent_name | upper }}</strong></p></h2>
+    <p>{{ price }}</p>
+    <p>{{ description }}</p>
+    <p><a class="btn btn-default" href="{{ path('acme_task5_index') }}" role="button">Buy tent</a></p>
+{% endblock %}
+
+{% block col3 %}
+    <h2>Tent name: <p class="lead"><strong>{{ tent_name | upper }}</strong></p></h2>
+    <p>{{ price }}</p>
+    <p>{{ description }}</p>
+    <p><a class="btn btn-default" href="{{ path('acme_task5_index') }}" role="button">Buy tent</a></p>
 {% endblock %}
