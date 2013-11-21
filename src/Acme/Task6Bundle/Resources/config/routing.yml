@@ -1,0 +1,3 @@
+acme_task6_create:
+    pattern: /
+    defaults: {_controller: AcmeTask6Bundle:Default:create}
