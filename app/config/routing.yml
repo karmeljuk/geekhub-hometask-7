@@ -1,3 +1,8 @@
+acme_task6:
+    resource: "@AcmeTask6Bundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 acme_task5:
     resource: "@AcmeTask5Bundle/Resources/config/routing.yml"
     prefix:   /task5
