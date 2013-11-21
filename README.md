@@ -1,7 +1,3 @@
-Home Work #5
+Home Work #6
 
-Bundle name - Task5Bundle
-
-The names of page - index, about, contact
-
-css and js files located in web/bundles/hometask5/
+Not completed yet
