@@ -1,3 +1,11 @@
+acme_task7:
+    resource: "@AcmeTask7Bundle/Resources/config/routing.yml"
+    prefix:   /task7
+
+acme_task5:
+    resource: "@AcmeTask6Bundle/Resources/config/routing.yml"
+    prefix:   /task6
+
 acme_task5:
     resource: "@AcmeTask5Bundle/Resources/config/routing.yml"
     prefix:   /task5
