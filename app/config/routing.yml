@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 acme_task6:
+=======
+acme_task7:
+    resource: "@AcmeTask7Bundle/Resources/config/routing.yml"
+    prefix:   /task7
+
+acme_task5:
+>>>>>>> hometask-7
     resource: "@AcmeTask6Bundle/Resources/config/routing.yml"
     prefix:   /task6
 

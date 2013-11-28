@@ -1,0 +1,8 @@
+parameters:
+    my_mailer.class:      Acme\Task7Bundle\Mailer
+    my_mailer.transport:  sendmail
+
+services:
+    newsletter_manager:
+        class:     %newsletter_manager.class%
+        arguments: [@mailer, @templating]

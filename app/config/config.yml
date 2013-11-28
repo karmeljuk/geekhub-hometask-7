@@ -64,3 +64,13 @@ swiftmailer:
     username:  %mailer_user%
     password:  %mailer_password%
     spool:     { type: memory }
+
+services:
+    my_mailer:
+        class:        Acme\HelloBundle\Mailer
+        arguments:    [sendmail]
+
+
+imports:
+    hello_bundle:
+        resource: @AcmeTask7Bundle/Resources/config/services.yml
